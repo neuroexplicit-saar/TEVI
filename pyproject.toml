@@ -1,0 +1,15 @@
+[project]
+name = "mgap"
+description="Modality Gap Experiments"
+version = "0.1"
+authors = [{name = "Sukrut Rao", email = "sukrut.rao@mpi-inf.mpg.de"},
+           {name = "Sweta Mahajan", email = "sweta.mahajan@mpi-inf.mpg.de"}]
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["mgap*"]
